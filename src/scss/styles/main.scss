@@ -1,0 +1,8 @@
+.main{
+    padding: 50px 100px;
+    &__searchList{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

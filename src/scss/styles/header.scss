@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 8px grey;
+    &__title{
+        font-family: 'Arial', san-serif;
+        font-size: 30px;
+    }
+    &__search{
+        width: 800px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        padding: 10px 20px;
+        display: flex;
+        &:focus{
+            box-shadow: 10px 5px 5px beige;
+        }
+        &__text{
+            width: 100%;
+            &:focus{
+                box-shadow: 10px 5px 5px beige;
+                border-radius: 10px;
+            }
+        }
+        &__submit{
+            background-color: inherit;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            &:hover{
+                background-color: beige;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
